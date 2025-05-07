@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Submit",
+      "brokenLocator": "//button[@type \u003d \u0027button\u0027 and (text() \u003d \u0027 Submit \u0027 or . \u003d \u0027 Submit \u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[13]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250423_151851/OR_921000_Employee_Time_Module/OR_920002_Employee_Timesheet/TC_OR_920003_Timesheet_With_Valid_and_Required_Field/20250423_151852/Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Submit_attributes.png"
+    }
+  ]
+}

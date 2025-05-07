@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_OR_920003_Timesheet_With_Valid_and_Required_Field,Chrome 135.0.7049.97,,,23-04-2025 15:18:57,23-04-2025 15:19:57,59.326s,PASSED
+,,,,,,,
+Test Cases/OR_920001_Employee_Time_Module/OR_920002_Employee_Timesheet/TC_OR_920003_Timesheet_With_Valid_and_Required_Field,Chrome 135.0.7049.97,"Navigate to Timesheet Submission page on Orange HRM
+Select employee for timesheet submission
+Fill in 'Date' field with valid data
+Fill in 'Hours Worked' field with valid data
+Fill in 'Description' field with valid data
+Submit the timesheet after filling all required fields",,23-04-2025 15:18:58,23-04-2025 15:19:57,59.229s,PASSED
+"DATA BINDING - {""(Default) UserN..."":""amy.gonzalez"",""(Default) UserP..."":""p7egalF197zCPQnMaznrNq5yBULcTkKN""}",,,,,,,
+Start listener action : sampleBeforeTestCase,Chrome 135.0.7049.97,,,23-04-2025 15:18:58,23-04-2025 15:18:58,0.006s,PASSED
+Start listener action : executeRows,Chrome 135.0.7049.97,,,23-04-2025 15:18:58,23-04-2025 15:18:58,0.006s,PASSED
+"comment(""Opening the browser..."")",Chrome 135.0.7049.97,,,23-04-2025 15:18:58,23-04-2025 15:18:58,0.027s,PASSED
+"openBrowser("""")",Chrome 135.0.7049.97,,,23-04-2025 15:18:58,23-04-2025 15:19:00,2.634s,PASSED
+"comment(""Navigating to the application URL..."")",Chrome 135.0.7049.97,,,23-04-2025 15:19:00,23-04-2025 15:19:00,0.002s,PASSED
+navigateToUrl(URL),Chrome 135.0.7049.97,,,23-04-2025 15:19:00,23-04-2025 15:19:03,2.677s,PASSED
+"comment(""Entering username..."")",Chrome 135.0.7049.97,,,23-04-2025 15:19:03,23-04-2025 15:19:03,0.006s,PASSED
+"setText(findTestObject(""Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/input_Username_username""), UserName)",Chrome 135.0.7049.97,,,23-04-2025 15:19:03,23-04-2025 15:19:04,1.106s,PASSED
+"comment(""Entering password..."")",Chrome 135.0.7049.97,,,23-04-2025 15:19:04,23-04-2025 15:19:04,0.003s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/input_Password_password""), UserPassword)",Chrome 135.0.7049.97,,,23-04-2025 15:19:04,23-04-2025 15:19:05,0.286s,PASSED
+"comment(""Clicking the login button..."")",Chrome 135.0.7049.97,,,23-04-2025 15:19:05,23-04-2025 15:19:05,0.002s,PASSED
+"click(findTestObject(""Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Login""))",Chrome 135.0.7049.97,,,23-04-2025 15:19:05,23-04-2025 15:19:05,0.262s,PASSED
+"comment(""Navigating to the Time module..."")",Chrome 135.0.7049.97,,,23-04-2025 15:19:05,23-04-2025 15:19:05,0.002s,PASSED
+"click(findTestObject(""Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/a_Time""))",Chrome 135.0.7049.97,,,23-04-2025 15:19:05,23-04-2025 15:19:08,2.856s,PASSED
+"comment(""Navigating to Timesheets..."")",Chrome 135.0.7049.97,,,23-04-2025 15:19:08,23-04-2025 15:19:08,0.002s,PASSED
+"click(findTestObject(""Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/li_Timesheets""))",Chrome 135.0.7049.97,,,23-04-2025 15:19:08,23-04-2025 15:19:09,1.509s,PASSED
+"comment(""Navigating to My Timesheets..."")",Chrome 135.0.7049.97,,,23-04-2025 15:19:09,23-04-2025 15:19:09,0.002s,PASSED
+"click(findTestObject(""Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/li_My Timesheets""))",Chrome 135.0.7049.97,,,23-04-2025 15:19:09,23-04-2025 15:19:10,0.828s,PASSED
+"comment(""Opening the calendar..."")",Chrome 135.0.7049.97,,,23-04-2025 15:19:10,23-04-2025 15:19:10,0.002s,PASSED
+"click(findTestObject(""Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/i_My Timesheet_oxd-icon bi-calendar oxd-dat_09406c""))",Chrome 135.0.7049.97,,,23-04-2025 15:19:10,23-04-2025 15:19:12,1.507s,PASSED
+"comment(""Selecting today's date..."")",Chrome 135.0.7049.97,,,23-04-2025 15:19:12,23-04-2025 15:19:12,0.001s,PASSED
+"click(findTestObject(""Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/calander_today_link""))",Chrome 135.0.7049.97,,,23-04-2025 15:19:12,23-04-2025 15:19:13,0.995s,PASSED
+"comment(""Checking if the ""Create Timesheet"" button exists..."")",Chrome 135.0.7049.97,,,23-04-2025 15:19:13,23-04-2025 15:19:13,0.001s,PASSED
+"isCreateButtonExist = verifyElementPresent(findTestObject(""Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Create Timesheet""), 2, OPTIONAL)",Chrome 135.0.7049.97,,,23-04-2025 15:19:13,23-04-2025 15:19:16,3.131s,PASSED
+if (isCreateButtonExist),Chrome 135.0.7049.97,,,23-04-2025 15:19:16,23-04-2025 15:19:16,0.001s,PASSED
+else,Chrome 135.0.7049.97,,,23-04-2025 15:19:16,23-04-2025 15:19:16,0.601s,PASSED
+delay(2),Chrome 135.0.7049.97,,,23-04-2025 15:19:16,23-04-2025 15:19:18,2.009s,PASSED
+"comment(""Checking if the company text field is empty..."")",Chrome 135.0.7049.97,,,23-04-2025 15:19:18,23-04-2025 15:19:18,0.004s,PASSED
+"companyTextEmpty = orangehrm.OrangeUtility.isTextEmpty(findTestObject(""Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/input""))",Chrome 135.0.7049.97,,,23-04-2025 15:19:18,23-04-2025 15:19:19,0.273s,PASSED
+"println(""companyTextEmpty: "" + companyTextEmpty)",Chrome 135.0.7049.97,,,23-04-2025 15:19:19,23-04-2025 15:19:19,0.002s,PASSED
+if (companyTextEmpty),Chrome 135.0.7049.97,,,23-04-2025 15:19:19,23-04-2025 15:19:19,0.001s,PASSED
+"comment(""Filling input boxes with 8 hours if they are empty..."")",Chrome 135.0.7049.97,,,23-04-2025 15:19:19,23-04-2025 15:19:19,0.001s,PASSED
+"for ([i = 1, i <= 5, (i++)])",Chrome 135.0.7049.97,,,23-04-2025 15:19:19,23-04-2025 15:19:21,2.037s,PASSED
+"comment(""Saving the timesheet..."")",Chrome 135.0.7049.97,,,23-04-2025 15:19:21,23-04-2025 15:19:21,0.003s,PASSED
+"click(findTestObject(""Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Save""))",Chrome 135.0.7049.97,,,23-04-2025 15:19:21,23-04-2025 15:19:21,0.257s,PASSED
+delay(2),Chrome 135.0.7049.97,,,23-04-2025 15:19:21,23-04-2025 15:19:23,2.012s,PASSED
+"click(findTestObject(""Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Submit""))",Chrome 135.0.7049.97,,,23-04-2025 15:19:23,23-04-2025 15:19:55,31.782s,PASSED
+"comment(""Timesheet process completed successfully."")",Chrome 135.0.7049.97,,,23-04-2025 15:19:55,23-04-2025 15:19:55,0.002s,PASSED
+delay(2),Chrome 135.0.7049.97,,,23-04-2025 15:19:55,23-04-2025 15:19:57,2.010s,PASSED
+closeBrowser(),Chrome 135.0.7049.97,,,23-04-2025 15:19:57,23-04-2025 15:19:57,0.121s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 135.0.7049.97,,,23-04-2025 15:19:57,23-04-2025 15:19:57,0.002s,PASSED
+Start listener action : addFailedTCToList,Chrome 135.0.7049.97,,,23-04-2025 15:19:57,23-04-2025 15:19:57,0.001s,PASSED

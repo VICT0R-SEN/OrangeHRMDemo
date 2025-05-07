@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_OR_920003_Timesheet_With_Valid_and_Required_Field,Chrome 135.0.7049.97,,,23-04-2025 17:18:08,23-04-2025 17:18:13,5.378s,FAILED
+,,,,,,,
+Test Cases/OR_920001_Employee_Time_Module/OR_920002_Employee_Timesheet/TC_OR_920003_Timesheet_With_Valid_and_Required_Field,Chrome 135.0.7049.97,"Navigate to Timesheet Submission page on Orange HRM
+Select employee for timesheet submission
+Fill in 'Date' field with valid data
+Fill in 'Hours Worked' field with valid data
+Fill in 'Description' field with valid data
+Submit the timesheet after filling all required fields",,23-04-2025 17:18:12,23-04-2025 17:18:13,0.832s,FAILED
+"DATA BINDING - {""(Default) UserN..."":""amy.gonzalez"",""(Default) UserP..."":""p7egalF197zCPQnMaznrNq5yBULcTkKN""}",,,,,,,
+Start listener action : sampleBeforeTestCase,Chrome 135.0.7049.97,,,23-04-2025 17:18:12,23-04-2025 17:18:12,0.006s,PASSED
+Start listener action : executeRows,Chrome 135.0.7049.97,,,23-04-2025 17:18:12,23-04-2025 17:18:12,0.000s,PASSED
+"comment(""Opening the browser..."")",Chrome 135.0.7049.97,,,23-04-2025 17:18:12,23-04-2025 17:18:12,0.001s,PASSED
+"openBrowser("""")",Chrome 135.0.7049.97,,,23-04-2025 17:18:12,23-04-2025 17:18:13,0.666s,PASSED
+"comment(""Navigating to the application URL..."")",Chrome 135.0.7049.97,,,23-04-2025 17:18:13,23-04-2025 17:18:13,0.000s,PASSED
+navigateToUrl(URL),Chrome 135.0.7049.97,,,23-04-2025 17:18:13,23-04-2025 17:18:13,0.141s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 135.0.7049.97,,,23-04-2025 17:18:13,23-04-2025 17:18:13,0.002s,PASSED
+Start listener action : addFailedTCToList,Chrome 135.0.7049.97,,,23-04-2025 17:18:13,23-04-2025 17:18:13,0.000s,PASSED

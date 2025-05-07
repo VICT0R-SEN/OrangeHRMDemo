@@ -1,0 +1,913 @@
+2025-05-07 13:09:04.572 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/OR_911000_Employee_Onboarding/TS_OR_911001_Employee_Onboarding
+2025-05-07 13:09:04.624 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = victor sen
+2025-05-07 13:09:04.624 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = OrangeHRM_Automation
+2025-05-07 13:09:04.625 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = victor - 192.168.1.102
+2025-05-07 13:09:04.625 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-05-07 13:09:04.625 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.102
+2025-05-07 13:09:04.625 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.0.0
+Test Suites/OR_911000_Employee_Onboarding/TS_OR_911001_Employee_Onboarding
+2025-05-07 13:09:04.649 WARN  c.k.katalon.core.logging.KeywordLogger   - Please use "KeywordUtil.logInfo()" instead of "new KeywordLogger()" constructor. "KeywordLogger" is an internal API and might be changed in the future.
+2025-05-07 13:09:04.840 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-07 13:09:04.841 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/OR_910001_Employee_Onboarding/TC_OR_910007_Employee_Login
+Test Cases/OR_910001_Employee_Onboarding/TC_OR_910007_Employee_Login
+[:]
+2025-05-07 13:09:04.875 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-07 13:09:04.919 DEBUG testcase.TC_OR_910007_Employee_Login     - 1: comment("Step 1: Open a new browser instance")
+2025-05-07 13:09:04.946 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Step 1: Open a new browser instance
+2025-05-07 13:09:04.947 DEBUG testcase.TC_OR_910007_Employee_Login     - 2: openBrowser("")
+2025-05-07 13:09:05.032 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-07 13:09:05.054 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+May 07, 2025 1:09:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 07, 2025 1:09:06 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 136.0.7103.48. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-07 13:09:06.509 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5d4f89cca5fcbe354ad6ac9143d75c62
+2025-05-07 13:09:06.509 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.48
+2025-05-07 13:09:06.510 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-05-07 13:09:06.510 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-07 13:09:06.513 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-07 13:09:06.535 DEBUG testcase.TC_OR_910007_Employee_Login     - 3: comment("Step 2: Navigate to the OrangeHRM login page")
+2025-05-07 13:09:06.536 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Step 2: Navigate to the OrangeHRM login page
+2025-05-07 13:09:06.537 DEBUG testcase.TC_OR_910007_Employee_Login     - 4: navigateToUrl(URL)
+2025-05-07 13:09:09.030 DEBUG testcase.TC_OR_910007_Employee_Login     - 5: maximizeWindow()
+2025-05-07 13:09:09.404 DEBUG testcase.TC_OR_910007_Employee_Login     - 6: comment("Step 3: Enter the username into the username input field")
+2025-05-07 13:09:09.406 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Step 3: Enter the username into the username input field
+2025-05-07 13:09:09.407 DEBUG testcase.TC_OR_910007_Employee_Login     - 7: setText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_username"), Username)
+2025-05-07 13:09:13.029 DEBUG testcase.TC_OR_910007_Employee_Login     - 8: comment("Step 4: Enter the encrypted password into the password input field")
+2025-05-07 13:09:13.031 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Step 4: Enter the encrypted password into the password input field
+2025-05-07 13:09:13.032 DEBUG testcase.TC_OR_910007_Employee_Login     - 9: setEncryptedText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password"), Password)
+2025-05-07 13:09:13.721 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to set encrypted text for object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1087)
+	at TC_OR_910007_Employee_Login.run(TC_OR_910007_Employee_Login:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1746603541891.run(TempTestSuite1746603541891.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at java.base/com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:891)
+	at java.base/com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:730)
+	at java.base/com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:424)
+	at java.base/com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:456)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1087)
+	at Script1738139296413.run(Script1738139296413.groovy:40)
+	... 15 more
+)
+2025-05-07 13:09:13.723 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/OR_910001_Employee_Onboarding/TC_OR_910007_Employee_Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1087)
+	at TC_OR_910007_Employee_Login.run(TC_OR_910007_Employee_Login:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1746603541891.run(TempTestSuite1746603541891.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at java.base/com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:891)
+	at java.base/com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:730)
+	at java.base/com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:424)
+	at java.base/com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:456)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+Test Cases/OR_910001_Employee_Onboarding/TC_OR_910007_Employee_Login
+FAILED
+2025-05-07 13:09:13.728 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-07 13:09:13.728 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-07 13:09:13.728 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/OR_910001_Employee_Onboarding/TC_OR_910007_Employee_Login
+2025-05-07 13:09:13.731 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-07 13:09:13.731 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/OR_910001_Employee_Onboarding/TC_OR_910007_Employee_Login
+Test Cases/OR_910001_Employee_Onboarding/TC_OR_910007_Employee_Login
+[:]
+2025-05-07 13:09:13.738 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-07 13:09:13.740 DEBUG testcase.TC_OR_910007_Employee_Login     - 1: comment("Step 1: Open a new browser instance")
+2025-05-07 13:09:13.740 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Step 1: Open a new browser instance
+2025-05-07 13:09:13.741 DEBUG testcase.TC_OR_910007_Employee_Login     - 2: openBrowser("")
+2025-05-07 13:09:13.744 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-05-07 13:09:13.839 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-07 13:09:13.840 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+May 07, 2025 1:09:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 07, 2025 1:09:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 136.0.7103.48. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-07 13:09:14.678 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5622fcbca45c61b3f2c16371b7dbdc18
+2025-05-07 13:09:14.679 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.48
+2025-05-07 13:09:14.679 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-05-07 13:09:14.679 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-07 13:09:14.680 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-07 13:09:14.688 DEBUG testcase.TC_OR_910007_Employee_Login     - 3: comment("Step 2: Navigate to the OrangeHRM login page")
+2025-05-07 13:09:14.689 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Step 2: Navigate to the OrangeHRM login page
+2025-05-07 13:09:14.689 DEBUG testcase.TC_OR_910007_Employee_Login     - 4: navigateToUrl(URL)
+2025-05-07 13:09:17.647 DEBUG testcase.TC_OR_910007_Employee_Login     - 5: maximizeWindow()
+2025-05-07 13:09:18.067 DEBUG testcase.TC_OR_910007_Employee_Login     - 6: comment("Step 3: Enter the username into the username input field")
+2025-05-07 13:09:18.068 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Step 3: Enter the username into the username input field
+2025-05-07 13:09:18.068 DEBUG testcase.TC_OR_910007_Employee_Login     - 7: setText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_username"), Username)
+2025-05-07 13:09:18.745 DEBUG testcase.TC_OR_910007_Employee_Login     - 8: comment("Step 4: Enter the encrypted password into the password input field")
+2025-05-07 13:09:18.746 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Step 4: Enter the encrypted password into the password input field
+2025-05-07 13:09:18.746 DEBUG testcase.TC_OR_910007_Employee_Login     - 9: setEncryptedText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password"), Password)
+2025-05-07 13:09:18.885 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to set encrypted text for object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1087)
+	at TC_OR_910007_Employee_Login.run(TC_OR_910007_Employee_Login:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1746603541891.run(TempTestSuite1746603541891.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at java.base/com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:891)
+	at java.base/com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:730)
+	at java.base/com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:424)
+	at java.base/com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:456)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1087)
+	at Script1738139296413.run(Script1738139296413.groovy:40)
+	... 16 more
+)
+2025-05-07 13:09:18.886 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/OR_910001_Employee_Onboarding/TC_OR_910007_Employee_Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1087)
+	at TC_OR_910007_Employee_Login.run(TC_OR_910007_Employee_Login:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1746603541891.run(TempTestSuite1746603541891.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at java.base/com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:891)
+	at java.base/com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:730)
+	at java.base/com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:424)
+	at java.base/com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:456)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 21 more
+
+Test Cases/OR_910001_Employee_Onboarding/TC_OR_910007_Employee_Login
+FAILED
+2025-05-07 13:09:18.888 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-07 13:09:18.888 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-07 13:09:18.888 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/OR_910001_Employee_Onboarding/TC_OR_910007_Employee_Login
+2025-05-07 13:09:18.890 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-07 13:09:18.890 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/OR_910001_Employee_Onboarding/TC_OR_910007_Employee_Login
+Test Cases/OR_910001_Employee_Onboarding/TC_OR_910007_Employee_Login
+[:]
+2025-05-07 13:09:18.898 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-07 13:09:18.898 DEBUG testcase.TC_OR_910007_Employee_Login     - 1: comment("Step 1: Open a new browser instance")
+2025-05-07 13:09:18.899 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Step 1: Open a new browser instance
+2025-05-07 13:09:18.899 DEBUG testcase.TC_OR_910007_Employee_Login     - 2: openBrowser("")
+2025-05-07 13:09:18.901 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-05-07 13:09:18.986 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-07 13:09:18.987 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+May 07, 2025 1:09:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 07, 2025 1:09:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 136.0.7103.48. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-07 13:09:19.818 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 03ad4529c70fd07549b3c14da622a3cc
+2025-05-07 13:09:19.819 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.48
+2025-05-07 13:09:19.820 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-05-07 13:09:19.820 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-07 13:09:19.820 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-07 13:09:19.828 DEBUG testcase.TC_OR_910007_Employee_Login     - 3: comment("Step 2: Navigate to the OrangeHRM login page")
+2025-05-07 13:09:19.828 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Step 2: Navigate to the OrangeHRM login page
+2025-05-07 13:09:19.828 DEBUG testcase.TC_OR_910007_Employee_Login     - 4: navigateToUrl(URL)
+2025-05-07 13:09:24.818 DEBUG testcase.TC_OR_910007_Employee_Login     - 5: maximizeWindow()
+2025-05-07 13:09:25.182 DEBUG testcase.TC_OR_910007_Employee_Login     - 6: comment("Step 3: Enter the username into the username input field")
+2025-05-07 13:09:25.183 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Step 3: Enter the username into the username input field
+2025-05-07 13:09:25.183 DEBUG testcase.TC_OR_910007_Employee_Login     - 7: setText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_username"), Username)
+2025-05-07 13:09:26.679 DEBUG testcase.TC_OR_910007_Employee_Login     - 8: comment("Step 4: Enter the encrypted password into the password input field")
+2025-05-07 13:09:26.680 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Step 4: Enter the encrypted password into the password input field
+2025-05-07 13:09:26.681 DEBUG testcase.TC_OR_910007_Employee_Login     - 9: setEncryptedText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password"), Password)
+2025-05-07 13:09:26.822 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to set encrypted text for object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1087)
+	at TC_OR_910007_Employee_Login.run(TC_OR_910007_Employee_Login:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1746603541891.run(TempTestSuite1746603541891.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at java.base/com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:891)
+	at java.base/com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:730)
+	at java.base/com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:424)
+	at java.base/com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:456)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1087)
+	at Script1738139296413.run(Script1738139296413.groovy:40)
+	... 17 more
+)
+2025-05-07 13:09:26.824 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/OR_910001_Employee_Onboarding/TC_OR_910007_Employee_Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1087)
+	at TC_OR_910007_Employee_Login.run(TC_OR_910007_Employee_Login:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1746603541891.run(TempTestSuite1746603541891.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at java.base/com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:891)
+	at java.base/com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:730)
+	at java.base/com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:424)
+	at java.base/com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:456)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+
+Test Cases/OR_910001_Employee_Onboarding/TC_OR_910007_Employee_Login
+FAILED
+2025-05-07 13:09:26.826 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-07 13:09:26.826 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-07 13:09:26.826 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/OR_910001_Employee_Onboarding/TC_OR_910007_Employee_Login
+2025-05-07 13:09:26.828 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-07 13:09:26.828 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/OR_910001_Employee_Onboarding/TC_OR_910007_Employee_Login
+Test Cases/OR_910001_Employee_Onboarding/TC_OR_910007_Employee_Login
+[:]
+2025-05-07 13:09:26.833 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-07 13:09:26.833 DEBUG testcase.TC_OR_910007_Employee_Login     - 1: comment("Step 1: Open a new browser instance")
+2025-05-07 13:09:26.834 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Step 1: Open a new browser instance
+2025-05-07 13:09:26.834 DEBUG testcase.TC_OR_910007_Employee_Login     - 2: openBrowser("")
+2025-05-07 13:09:26.837 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-05-07 13:09:26.926 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-07 13:09:26.927 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+May 07, 2025 1:09:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 07, 2025 1:09:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 136.0.7103.48. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-07 13:09:27.778 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = bdeefae46b69214f3c165bf00c860946
+2025-05-07 13:09:27.779 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.48
+2025-05-07 13:09:27.779 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-05-07 13:09:27.779 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-07 13:09:27.779 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-07 13:09:27.787 DEBUG testcase.TC_OR_910007_Employee_Login     - 3: comment("Step 2: Navigate to the OrangeHRM login page")
+2025-05-07 13:09:27.788 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Step 2: Navigate to the OrangeHRM login page
+2025-05-07 13:09:27.788 DEBUG testcase.TC_OR_910007_Employee_Login     - 4: navigateToUrl(URL)
+2025-05-07 13:09:30.217 DEBUG testcase.TC_OR_910007_Employee_Login     - 5: maximizeWindow()
+2025-05-07 13:09:30.588 DEBUG testcase.TC_OR_910007_Employee_Login     - 6: comment("Step 3: Enter the username into the username input field")
+2025-05-07 13:09:30.589 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Step 3: Enter the username into the username input field
+2025-05-07 13:09:30.589 DEBUG testcase.TC_OR_910007_Employee_Login     - 7: setText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_username"), Username)
+2025-05-07 13:09:31.367 DEBUG testcase.TC_OR_910007_Employee_Login     - 8: comment("Step 4: Enter the encrypted password into the password input field")
+2025-05-07 13:09:31.368 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Step 4: Enter the encrypted password into the password input field
+2025-05-07 13:09:31.368 DEBUG testcase.TC_OR_910007_Employee_Login     - 9: setEncryptedText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password"), Password)
+2025-05-07 13:09:31.513 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to set encrypted text for object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1087)
+	at TC_OR_910007_Employee_Login.run(TC_OR_910007_Employee_Login:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1746603541891.run(TempTestSuite1746603541891.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at java.base/com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:891)
+	at java.base/com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:730)
+	at java.base/com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:424)
+	at java.base/com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:456)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1087)
+	at Script1738139296413.run(Script1738139296413.groovy:40)
+	... 18 more
+)
+2025-05-07 13:09:31.514 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/OR_910001_Employee_Onboarding/TC_OR_910007_Employee_Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1087)
+	at TC_OR_910007_Employee_Login.run(TC_OR_910007_Employee_Login:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1746603541891.run(TempTestSuite1746603541891.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at java.base/com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:891)
+	at java.base/com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:730)
+	at java.base/com.sun.crypto.provider.PKCS12PBECipherCore.implDoFinal(PKCS12PBECipherCore.java:424)
+	at java.base/com.sun.crypto.provider.PKCS12PBECipherCore$PBEWithSHA1AndDESede.engineDoFinal(PKCS12PBECipherCore.java:456)
+	at com.kms.katalon.util.CryptoUtil.decode(CryptoUtil.java:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+
+Test Cases/OR_910001_Employee_Onboarding/TC_OR_910007_Employee_Login
+FAILED
+2025-05-07 13:09:31.515 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-07 13:09:31.516 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-07 13:09:31.516 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/OR_910001_Employee_Onboarding/TC_OR_910007_Employee_Login
+2025-05-07 13:09:31.532 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-07 13:09:31.532 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/OR_910001_Employee_Onboarding/TC_OR_910001_Employee_Onboarding
+2025-05-07 13:09:31.567 INFO  c.k.katalon.core.main.TestCaseExecutor   - Firstname = Megan
+2025-05-07 13:09:31.567 INFO  c.k.katalon.core.main.TestCaseExecutor   - Lastname = Gould
+2025-05-07 13:09:31.567 INFO  c.k.katalon.core.main.TestCaseExecutor   - EmployeeID = 10004
+2025-05-07 13:09:31.568 INFO  c.k.katalon.core.main.TestCaseExecutor   - EmployeePassword = p7egalF197zCPQnMaznrNq5yBULcTkKN
+Test Cases/OR_910001_Employee_Onboarding/TC_OR_910001_Employee_Onboarding
+[Firstname:Megan, Lastname:Gould, EmployeePassword:p7egalF197zCPQnMaznrNq5yBULcTkKN, EmployeeID:10004]
+2025-05-07 13:09:31.569 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-07 13:09:32.115 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.getListExecutedRows is PASSED
+2025-05-07 13:09:32.146 DEBUG t.TC_OR_910001_Employee_Onboarding       - 1: comment("Step 1: Click on the PIM module link")
+2025-05-07 13:09:32.147 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Step 1: Click on the PIM module link
+2025-05-07 13:09:32.147 DEBUG t.TC_OR_910001_Employee_Onboarding       - 2: click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM"))
+2025-05-07 13:10:03.206 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-07 13:10:03.208 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM'. Try using Self-healing.
+2025-05-07 13:10:03.448 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a'.
+2025-05-07 13:10:03.685 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//a[contains(@href, '/web/index.php/pim/viewPimModule')]'.
+2025-05-07 13:10:03.916 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//li[2]/a'.
+2025-05-07 13:10:04.150 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//a[@href = '/web/index.php/pim/viewPimModule' and (text() = 'PIM' or . = 'PIM')]'.
+2025-05-07 13:10:04.375 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a'.
+2025-05-07 13:10:04.602 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//a[contains(@href, '/web/index.php/pim/viewPimModule')]'.
+2025-05-07 13:10:04.834 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//li[2]/a'.
+2025-05-07 13:10:05.067 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//a[@href = '/web/index.php/pim/viewPimModule' and (text() = 'PIM' or . = 'PIM')]'.
+2025-05-07 13:10:07.180 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@href = '/web/index.php/pim/viewPimModule' and (text() = 'PIM' or . = 'PIM')]'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-07 13:10:07.419 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] invalid selector: No selector specified
+  (Session info: chrome=136.0.7103.48)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [bdeefae46b69214f3c165bf00c860946, findElements {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.48, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /var/folders/dl/ztj8b1m15x5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59680/devtoo..., se:cdpVersion: 136.0.7103.48, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:45362/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bdeefae46b69214f3c165bf00c860946
+2025-05-07 13:10:07.584 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TC_OR_910001_Employee_Onboarding.run(TC_OR_910001_Employee_Onboarding:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1746603541891.run(TempTestSuite1746603541891.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM' located by '//div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1738139272759.run(Script1738139272759.groovy:23)
+	... 15 more
+)
+2025-05-07 13:10:07.585 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/OR_910001_Employee_Onboarding/TC_OR_910001_Employee_Onboarding FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TC_OR_910001_Employee_Onboarding.run(TC_OR_910001_Employee_Onboarding:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1746603541891.run(TempTestSuite1746603541891.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM' located by '//div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+Test Cases/OR_910001_Employee_Onboarding/TC_OR_910001_Employee_Onboarding
+FAILED
+2025-05-07 13:10:07.587 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-07 13:10:07.587 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-07 13:10:07.589 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/OR_910001_Employee_Onboarding/TC_OR_910001_Employee_Onboarding
+2025-05-07 13:10:07.591 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-07 13:10:07.591 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/OR_910001_Employee_Onboarding/TC_OR_910001_Employee_Onboarding
+2025-05-07 13:10:07.598 INFO  c.k.katalon.core.main.TestCaseExecutor   - Firstname = Megan
+2025-05-07 13:10:07.598 INFO  c.k.katalon.core.main.TestCaseExecutor   - Lastname = Gould
+2025-05-07 13:10:07.598 INFO  c.k.katalon.core.main.TestCaseExecutor   - EmployeeID = 10004
+2025-05-07 13:10:07.598 INFO  c.k.katalon.core.main.TestCaseExecutor   - EmployeePassword = p7egalF197zCPQnMaznrNq5yBULcTkKN
+Test Cases/OR_910001_Employee_Onboarding/TC_OR_910001_Employee_Onboarding
+[Firstname:Megan, Lastname:Gould, EmployeePassword:p7egalF197zCPQnMaznrNq5yBULcTkKN, EmployeeID:10004]
+2025-05-07 13:10:07.599 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-07 13:10:07.783 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.getListExecutedRows is PASSED
+2025-05-07 13:10:07.784 DEBUG t.TC_OR_910001_Employee_Onboarding       - 1: comment("Step 1: Click on the PIM module link")
+2025-05-07 13:10:07.785 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Step 1: Click on the PIM module link
+2025-05-07 13:10:07.785 DEBUG t.TC_OR_910001_Employee_Onboarding       - 2: click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM"))
+2025-05-07 13:10:38.851 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-07 13:10:38.853 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM'. Try using Self-healing.
+2025-05-07 13:10:39.074 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a'.
+2025-05-07 13:10:39.301 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//a[contains(@href, '/web/index.php/pim/viewPimModule')]'.
+2025-05-07 13:10:39.530 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//li[2]/a'.
+2025-05-07 13:10:39.755 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//a[@href = '/web/index.php/pim/viewPimModule' and (text() = 'PIM' or . = 'PIM')]'.
+2025-05-07 13:10:39.975 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a'.
+2025-05-07 13:10:40.204 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//a[contains(@href, '/web/index.php/pim/viewPimModule')]'.
+2025-05-07 13:10:40.444 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//li[2]/a'.
+2025-05-07 13:10:40.662 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//a[@href = '/web/index.php/pim/viewPimModule' and (text() = 'PIM' or . = 'PIM')]'.
+2025-05-07 13:10:42.767 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@href = '/web/index.php/pim/viewPimModule' and (text() = 'PIM' or . = 'PIM')]'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-07 13:10:42.996 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] invalid selector: No selector specified
+  (Session info: chrome=136.0.7103.48)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [bdeefae46b69214f3c165bf00c860946, findElements {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.48, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /var/folders/dl/ztj8b1m15x5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59680/devtoo..., se:cdpVersion: 136.0.7103.48, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:45362/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bdeefae46b69214f3c165bf00c860946
+2025-05-07 13:10:43.156 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TC_OR_910001_Employee_Onboarding.run(TC_OR_910001_Employee_Onboarding:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1746603541891.run(TempTestSuite1746603541891.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM' located by '//div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1738139272759.run(Script1738139272759.groovy:23)
+	... 16 more
+)
+2025-05-07 13:10:43.158 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/OR_910001_Employee_Onboarding/TC_OR_910001_Employee_Onboarding FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TC_OR_910001_Employee_Onboarding.run(TC_OR_910001_Employee_Onboarding:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1746603541891.run(TempTestSuite1746603541891.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM' located by '//div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 21 more
+
+Test Cases/OR_910001_Employee_Onboarding/TC_OR_910001_Employee_Onboarding
+FAILED
+2025-05-07 13:10:43.159 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-07 13:10:43.159 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-07 13:10:43.160 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/OR_910001_Employee_Onboarding/TC_OR_910001_Employee_Onboarding
+2025-05-07 13:10:43.161 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-07 13:10:43.161 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/OR_910001_Employee_Onboarding/TC_OR_910001_Employee_Onboarding
+2025-05-07 13:10:43.168 INFO  c.k.katalon.core.main.TestCaseExecutor   - Firstname = Megan
+2025-05-07 13:10:43.168 INFO  c.k.katalon.core.main.TestCaseExecutor   - Lastname = Gould
+2025-05-07 13:10:43.168 INFO  c.k.katalon.core.main.TestCaseExecutor   - EmployeeID = 10004
+2025-05-07 13:10:43.168 INFO  c.k.katalon.core.main.TestCaseExecutor   - EmployeePassword = p7egalF197zCPQnMaznrNq5yBULcTkKN
+Test Cases/OR_910001_Employee_Onboarding/TC_OR_910001_Employee_Onboarding
+[Firstname:Megan, Lastname:Gould, EmployeePassword:p7egalF197zCPQnMaznrNq5yBULcTkKN, EmployeeID:10004]
+2025-05-07 13:10:43.169 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-07 13:10:43.275 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.getListExecutedRows is PASSED
+2025-05-07 13:10:43.276 DEBUG t.TC_OR_910001_Employee_Onboarding       - 1: comment("Step 1: Click on the PIM module link")
+2025-05-07 13:10:43.277 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Step 1: Click on the PIM module link
+2025-05-07 13:10:43.277 DEBUG t.TC_OR_910001_Employee_Onboarding       - 2: click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM"))
+2025-05-07 13:11:14.392 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-07 13:11:14.395 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM'. Try using Self-healing.
+2025-05-07 13:11:14.621 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a'.
+2025-05-07 13:11:14.841 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//a[contains(@href, '/web/index.php/pim/viewPimModule')]'.
+2025-05-07 13:11:15.059 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//li[2]/a'.
+2025-05-07 13:11:15.272 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//a[@href = '/web/index.php/pim/viewPimModule' and (text() = 'PIM' or . = 'PIM')]'.
+2025-05-07 13:11:15.486 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a'.
+2025-05-07 13:11:15.701 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//a[contains(@href, '/web/index.php/pim/viewPimModule')]'.
+2025-05-07 13:11:15.924 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//li[2]/a'.
+2025-05-07 13:11:16.152 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//a[@href = '/web/index.php/pim/viewPimModule' and (text() = 'PIM' or . = 'PIM')]'.
+2025-05-07 13:11:18.254 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@href = '/web/index.php/pim/viewPimModule' and (text() = 'PIM' or . = 'PIM')]'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-07 13:11:18.485 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] invalid selector: No selector specified
+  (Session info: chrome=136.0.7103.48)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [bdeefae46b69214f3c165bf00c860946, findElements {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.48, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /var/folders/dl/ztj8b1m15x5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59680/devtoo..., se:cdpVersion: 136.0.7103.48, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:45362/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bdeefae46b69214f3c165bf00c860946
+2025-05-07 13:11:18.662 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TC_OR_910001_Employee_Onboarding.run(TC_OR_910001_Employee_Onboarding:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1746603541891.run(TempTestSuite1746603541891.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM' located by '//div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1738139272759.run(Script1738139272759.groovy:23)
+	... 17 more
+)
+2025-05-07 13:11:18.663 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/OR_910001_Employee_Onboarding/TC_OR_910001_Employee_Onboarding FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TC_OR_910001_Employee_Onboarding.run(TC_OR_910001_Employee_Onboarding:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1746603541891.run(TempTestSuite1746603541891.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM' located by '//div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+
+Test Cases/OR_910001_Employee_Onboarding/TC_OR_910001_Employee_Onboarding
+FAILED
+2025-05-07 13:11:18.665 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-07 13:11:18.665 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-07 13:11:18.665 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/OR_910001_Employee_Onboarding/TC_OR_910001_Employee_Onboarding
+2025-05-07 13:11:18.666 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-07 13:11:18.667 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/OR_910001_Employee_Onboarding/TC_OR_910001_Employee_Onboarding
+2025-05-07 13:11:18.672 INFO  c.k.katalon.core.main.TestCaseExecutor   - Firstname = Megan
+2025-05-07 13:11:18.672 INFO  c.k.katalon.core.main.TestCaseExecutor   - Lastname = Gould
+2025-05-07 13:11:18.672 INFO  c.k.katalon.core.main.TestCaseExecutor   - EmployeeID = 10004
+2025-05-07 13:11:18.672 INFO  c.k.katalon.core.main.TestCaseExecutor   - EmployeePassword = p7egalF197zCPQnMaznrNq5yBULcTkKN
+Test Cases/OR_910001_Employee_Onboarding/TC_OR_910001_Employee_Onboarding
+[Firstname:Megan, Lastname:Gould, EmployeePassword:p7egalF197zCPQnMaznrNq5yBULcTkKN, EmployeeID:10004]
+2025-05-07 13:11:18.673 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-07 13:11:18.797 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.getListExecutedRows is PASSED
+2025-05-07 13:11:18.798 DEBUG t.TC_OR_910001_Employee_Onboarding       - 1: comment("Step 1: Click on the PIM module link")
+2025-05-07 13:11:18.799 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Step 1: Click on the PIM module link
+2025-05-07 13:11:18.799 DEBUG t.TC_OR_910001_Employee_Onboarding       - 2: click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM"))
+2025-05-07 13:11:49.967 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-07 13:11:49.969 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM'. Try using Self-healing.
+2025-05-07 13:11:50.197 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a'.
+2025-05-07 13:11:50.430 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//a[contains(@href, '/web/index.php/pim/viewPimModule')]'.
+2025-05-07 13:11:50.646 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//li[2]/a'.
+2025-05-07 13:11:50.872 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//a[@href = '/web/index.php/pim/viewPimModule' and (text() = 'PIM' or . = 'PIM')]'.
+2025-05-07 13:11:51.098 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a'.
+2025-05-07 13:11:51.328 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//a[contains(@href, '/web/index.php/pim/viewPimModule')]'.
+2025-05-07 13:11:51.552 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//li[2]/a'.
+2025-05-07 13:11:51.778 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//a[@href = '/web/index.php/pim/viewPimModule' and (text() = 'PIM' or . = 'PIM')]'.
+2025-05-07 13:11:53.896 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@href = '/web/index.php/pim/viewPimModule' and (text() = 'PIM' or . = 'PIM')]'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-07 13:11:54.125 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] invalid selector: No selector specified
+  (Session info: chrome=136.0.7103.48)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4.1', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [bdeefae46b69214f3c165bf00c860946, findElements {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.48, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /var/folders/dl/ztj8b1m15x5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59680/devtoo..., se:cdpVersion: 136.0.7103.48, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:45362/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bdeefae46b69214f3c165bf00c860946
+2025-05-07 13:11:54.324 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TC_OR_910001_Employee_Onboarding.run(TC_OR_910001_Employee_Onboarding:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1746603541891.run(TempTestSuite1746603541891.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM' located by '//div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1738139272759.run(Script1738139272759.groovy:23)
+	... 18 more
+)
+2025-05-07 13:11:54.325 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/OR_910001_Employee_Onboarding/TC_OR_910001_Employee_Onboarding FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TC_OR_910001_Employee_Onboarding.run(TC_OR_910001_Employee_Onboarding:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1746603541891.run(TempTestSuite1746603541891.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM' located by '//div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+
+Test Cases/OR_910001_Employee_Onboarding/TC_OR_910001_Employee_Onboarding
+FAILED
+2025-05-07 13:11:54.326 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-07 13:11:54.327 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-07 13:11:54.327 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/OR_910001_Employee_Onboarding/TC_OR_910001_Employee_Onboarding
+2025-05-07 13:11:54.340 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-07 13:11:54.340 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/OR_910001_Employee_Onboarding/TC_OR_910001_Employee_Onboarding
+2025-05-07 13:11:54.346 INFO  c.k.katalon.core.main.TestCaseExecutor   - Firstname = Makayla
+2025-05-07 13:11:54.346 INFO  c.k.katalon.core.main.TestCaseExecutor   - Lastname = Johnson
+2025-05-07 13:11:54.346 INFO  c.k.katalon.core.main.TestCaseExecutor   - EmployeeID = 10005
+2025-05-07 13:11:54.346 INFO  c.k.katalon.core.main.TestCaseExecutor   - EmployeePassword = p7egalF197zCPQnMaznrNq5yBULcTkKN
+Test Cases/OR_910001_Employee_Onboarding/TC_OR_910001_Employee_Onboarding
+[Firstname:Makayla, Lastname:Johnson, EmployeePassword:p7egalF197zCPQnMaznrNq5yBULcTkKN, EmployeeID:10005]
+2025-05-07 13:11:54.347 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+2025-05-07 13:11:54.468 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.kms.katalon.keyword.testsuite.RerunKeyword.getListExecutedRows is PASSED
+2025-05-07 13:11:54.468 DEBUG t.TC_OR_910001_Employee_Onboarding       - 1: comment("Step 1: Click on the PIM module link")
+2025-05-07 13:11:54.469 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Step 1: Click on the PIM module link
+2025-05-07 13:11:54.469 DEBUG t.TC_OR_910001_Employee_Onboarding       - 2: click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM"))

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC_OR_920003_Timesheet_With_Valid_and_Required_Field" time="61.785" tests="1" failures="0" errors="0">
+   <testsuite name="TC_OR_920003_Timesheet_With_Valid_and_Required_Field" tests="1" failures="0" errors="0" time="61.785" skipped="0" timestamp="23-04-2025T17:19:37" hostname="victor - 192.168.1.102" id="Test Suites/OR_921000_Employee_Time_Module/OR_920002_Employee_Timesheet/TC_OR_920003_Timesheet_With_Valid_and_Required_Field">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/victor/git/orangehrm_demostration/Reports/20250423_171932/OR_921000_Employee_Time_Module/OR_920002_Employee_Timesheet/TC_OR_920003_Timesheet_With_Valid_and_Required_Field/20250423_171933"/>
+         <property name="logFiles" value="/Users/victor/git/orangehrm_demostration/Reports/20250423_171932/OR_921000_Employee_Time_Module/OR_920002_Employee_Timesheet/TC_OR_920003_Timesheet_With_Valid_and_Required_Field/20250423_171933/execution0.log"/>
+         <property name="attachments" value="/Users/victor/git/orangehrm_demostration/Reports/20250423_171932/OR_921000_Employee_Time_Module/OR_920002_Employee_Timesheet/TC_OR_920003_Timesheet_With_Valid_and_Required_Field/20250423_171933/1745408996251.png"/>
+         <property name="hostName" value="victor - 192.168.1.102"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 135.0.7049.97"/>
+         <property name="hostAddress" value="192.168.1.102"/>
+         <property name="sessionId" value="28c43f2b14169de75843e576d70c2618"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/OR_920001_Employee_Time_Module/OR_920002_Employee_Timesheet/TC_OR_920003_Timesheet_With_Valid_and_Required_Field" time="61.667" classname="Test Cases/OR_920001_Employee_Time_Module/OR_920002_Employee_Timesheet/TC_OR_920003_Timesheet_With_Valid_and_Required_Field" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) UserN...":"amy.gonzalez","(Default) UserP...":"p7egalF197zCPQnMaznrNq5yBULcTkKN"}]]></property>
+         </properties>
+         <system-out><![CDATA[23-04-2025T17:19:37 - [TEST_CASE][PASSED] - Test Cases/OR_920001_Employee_Time_Module/OR_920002_Employee_Timesheet/TC_OR_920003_Timesheet_With_Valid_and_Required_Field: Test Cases/OR_920001_Employee_Time_Module/OR_920002_Employee_Timesheet/TC_OR_920003_Timesheet_With_Valid_and_Required_Field
+
+23-04-2025T17:19:37 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+23-04-2025T17:19:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+23-04-2025T17:19:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+23-04-2025T17:19:37 - [TEST_STEP][PASSED] - Start listener action : executeRows: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+23-04-2025T17:19:37 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+23-04-2025T17:19:38 - [TEST_STEP][PASSED] - comment("Opening the browser..."): Opening the browser...
+
+23-04-2025T17:19:38 - [MESSAGE][INFO] - Opening the browser...
+
+23-04-2025T17:19:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-04-2025T17:19:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-04-2025T17:19:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-04-2025T17:19:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-04-2025T17:19:40 - [TEST_STEP][PASSED] - comment("Navigating to the application URL..."): Navigating to the application URL...
+
+23-04-2025T17:19:40 - [MESSAGE][INFO] - Navigating to the application URL...
+
+23-04-2025T17:19:40 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://orange.katalon.com/web/index.php/auth/login' successfully
+
+23-04-2025T17:19:43 - [MESSAGE][PASSED] - Navigate to 'http://orange.katalon.com/web/index.php/auth/login' successfully
+
+23-04-2025T17:19:43 - [TEST_STEP][PASSED] - comment("Entering username..."): Entering username...
+
+23-04-2025T17:19:43 - [MESSAGE][INFO] - Entering username...
+
+23-04-2025T17:19:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/input_Username_username"), UserName): Text 'amy.gonzalez' is set on object 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/input_Username_username'
+
+23-04-2025T17:19:44 - [MESSAGE][PASSED] - Text 'amy.gonzalez' is set on object 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/input_Username_username'
+
+23-04-2025T17:19:44 - [TEST_STEP][PASSED] - comment("Entering password..."): Entering password...
+
+23-04-2025T17:19:44 - [MESSAGE][INFO] - Entering password...
+
+23-04-2025T17:19:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/input_Password_password"), UserPassword): Text ****** has been set on object 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/input_Password_password'
+
+23-04-2025T17:19:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/input_Password_password'
+
+23-04-2025T17:19:44 - [TEST_STEP][PASSED] - comment("Clicking the login button..."): Clicking the login button...
+
+23-04-2025T17:19:44 - [MESSAGE][INFO] - Clicking the login button...
+
+23-04-2025T17:19:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Login' is clicked on
+
+23-04-2025T17:19:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Login' is clicked on
+
+23-04-2025T17:19:46 - [TEST_STEP][PASSED] - comment("Navigating to the Time module..."): Navigating to the Time module...
+
+23-04-2025T17:19:46 - [MESSAGE][INFO] - Navigating to the Time module...
+
+23-04-2025T17:19:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/a_Time")): Object: 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/a_Time' is clicked on
+
+23-04-2025T17:19:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/a_Time' is clicked on
+
+23-04-2025T17:19:48 - [TEST_STEP][PASSED] - comment("Navigating to Timesheets..."): Navigating to Timesheets...
+
+23-04-2025T17:19:48 - [MESSAGE][INFO] - Navigating to Timesheets...
+
+23-04-2025T17:19:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/li_Timesheets")): Object: 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/li_Timesheets' is clicked on
+
+23-04-2025T17:19:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/li_Timesheets' is clicked on
+
+23-04-2025T17:19:49 - [TEST_STEP][PASSED] - comment("Navigating to My Timesheets..."): Navigating to My Timesheets...
+
+23-04-2025T17:19:49 - [MESSAGE][INFO] - Navigating to My Timesheets...
+
+23-04-2025T17:19:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/li_My Timesheets")): Object: 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/li_My Timesheets' is clicked on
+
+23-04-2025T17:19:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/li_My Timesheets' is clicked on
+
+23-04-2025T17:19:51 - [TEST_STEP][PASSED] - comment("Opening the calendar..."): Opening the calendar...
+
+23-04-2025T17:19:51 - [MESSAGE][INFO] - Opening the calendar...
+
+23-04-2025T17:19:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/i_My Timesheet_oxd-icon bi-calendar oxd-dat_09406c")): Object: 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/i_My Timesheet_oxd-icon bi-calendar oxd-dat_09406c' is clicked on
+
+23-04-2025T17:19:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/i_My Timesheet_oxd-icon bi-calendar oxd-dat_09406c' is clicked on
+
+23-04-2025T17:19:52 - [TEST_STEP][PASSED] - comment("Selecting today's date..."): Selecting today's date...
+
+23-04-2025T17:19:52 - [MESSAGE][INFO] - Selecting today's date...
+
+23-04-2025T17:19:52 - [TEST_STEP][PASSED] - click(findTestObject("Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/calander_today_link")): Object: 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/calander_today_link' is clicked on
+
+23-04-2025T17:19:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/calander_today_link' is clicked on
+
+23-04-2025T17:19:53 - [TEST_STEP][PASSED] - comment("Checking if the "Create Timesheet" button exists..."): Checking if the "Create Timesheet" button exists...
+
+23-04-2025T17:19:53 - [MESSAGE][INFO] - Checking if the "Create Timesheet" button exists...
+
+23-04-2025T17:19:53 - [TEST_STEP][PASSED] - isCreateButtonExist = verifyElementPresent(findTestObject("Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Create Timesheet"), 2, OPTIONAL): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Create Timesheet' located by '//button[@type = 'button' and (text() = ' Create Timesheet ' or . = ' Create Timesheet ')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Create Timesheet' located by '//button[@type = 'button' and (text() = ' Create Timesheet ' or . = ' Create Timesheet ')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at TC_OR_920003_Timesheet_With_Valid_and_Required_Field.run(TC_OR_920003_Timesheet_With_Valid_and_Required_Field:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745408973391.run(TempTestSuite1745408973391.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+23-04-2025T17:19:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@type = 'button' and (text() = ' Create Timesheet ' or . = ' Create Timesheet ')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+23-04-2025T17:19:56 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Create Timesheet' located by '//button[@type = 'button' and (text() = ' Create Timesheet ' or . = ' Create Timesheet ')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Create Timesheet' located by '//button[@type = 'button' and (text() = ' Create Timesheet ' or . = ' Create Timesheet ')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at TC_OR_920003_Timesheet_With_Valid_and_Required_Field.run(TC_OR_920003_Timesheet_With_Valid_and_Required_Field:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745408973391.run(TempTestSuite1745408973391.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|/Users/victor/git/orangehrm_demostration/Reports/20250423_171932/OR_921000_Employee_Time_Module/OR_920002_Employee_Timesheet/TC_OR_920003_Timesheet_With_Valid_and_Required_Field/20250423_171933/1745408996251.png]]
+
+23-04-2025T17:19:56 - [TEST_STEP][PASSED] - if (isCreateButtonExist): null
+
+23-04-2025T17:19:56 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Edit' is clicked on
+
+23-04-2025T17:19:56 - [TEST_STEP][PASSED] - comment("Edit button found. Clicking on it..."): Edit button found. Clicking on it...
+
+23-04-2025T17:19:56 - [MESSAGE][INFO] - Edit button found. Clicking on it...
+
+23-04-2025T17:19:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Edit")): Object: 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Edit' is clicked on
+
+23-04-2025T17:19:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Edit' is clicked on
+
+23-04-2025T17:19:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-04-2025T17:19:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-04-2025T17:19:59 - [TEST_STEP][PASSED] - comment("Checking if the company text field is empty..."): Checking if the company text field is empty...
+
+23-04-2025T17:19:59 - [MESSAGE][INFO] - Checking if the company text field is empty...
+
+23-04-2025T17:19:59 - [TEST_STEP][PASSED] - companyTextEmpty = orangehrm.OrangeUtility.isTextEmpty(findTestObject("Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/input")): orangehrm.OrangeUtility.isTextEmpty is PASSED
+
+23-04-2025T17:19:59 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/input' is: 'Accenture - Agile Transformation Tool'
+
+23-04-2025T17:19:59 - [MESSAGE][INFO] - Validation failed: Text has value 'Accenture - Agile Transformation Tool'
+
+23-04-2025T17:19:59 - [MESSAGE][PASSED] - orangehrm.OrangeUtility.isTextEmpty is PASSED
+
+23-04-2025T17:19:59 - [TEST_STEP][PASSED] - println("companyTextEmpty: " + companyTextEmpty): null
+
+23-04-2025T17:19:59 - [TEST_STEP][PASSED] - if (companyTextEmpty): null
+
+23-04-2025T17:19:59 - [TEST_STEP][PASSED] - comment("Filling input boxes with 8 hours if they are empty..."): Filling input boxes with 8 hours if they are empty...
+
+23-04-2025T17:19:59 - [MESSAGE][INFO] - Filling input boxes with 8 hours if they are empty...
+
+23-04-2025T17:19:59 - [TEST_STEP][PASSED] - for ([i = 1, i <= 5, (i++)]): null
+
+23-04-2025T17:19:59 - [TEST_STEP][PASSED] - inputBox = new com.kms.katalon.core.testobject.TestObject(): null
+
+23-04-2025T17:19:59 - [TEST_STEP][PASSED] - inputBox.addProperty("xpath", EQUALS, (//input[@class='oxd-input oxd-input--active' and @autocomplete='off'])[$i]): null
+
+23-04-2025T17:19:59 - [TEST_STEP][PASSED] - isHoursFilled = orangehrm.OrangeUtility.isTextEmpty(inputBox): orangehrm.OrangeUtility.isTextEmpty is PASSED
+
+23-04-2025T17:19:59 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '08:00'
+
+23-04-2025T17:19:59 - [MESSAGE][INFO] - Validation failed: Text has value '08:00'
+
+23-04-2025T17:19:59 - [MESSAGE][PASSED] - orangehrm.OrangeUtility.isTextEmpty is PASSED
+
+23-04-2025T17:19:59 - [TEST_STEP][PASSED] - println("isHoursFilled: " + isHoursFilled + " - " + i): null
+
+23-04-2025T17:19:59 - [TEST_STEP][PASSED] - if (isHoursFilled): null
+
+23-04-2025T17:19:59 - [TEST_STEP][PASSED] - inputBox = new com.kms.katalon.core.testobject.TestObject(): null
+
+23-04-2025T17:19:59 - [TEST_STEP][PASSED] - inputBox.addProperty("xpath", EQUALS, (//input[@class='oxd-input oxd-input--active' and @autocomplete='off'])[$i]): null
+
+23-04-2025T17:19:59 - [TEST_STEP][PASSED] - isHoursFilled = orangehrm.OrangeUtility.isTextEmpty(inputBox): orangehrm.OrangeUtility.isTextEmpty is PASSED
+
+23-04-2025T17:19:59 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: ''
+
+23-04-2025T17:19:59 - [MESSAGE][INFO] - Validation passed: Text has no value ''
+
+23-04-2025T17:19:59 - [MESSAGE][PASSED] - orangehrm.OrangeUtility.isTextEmpty is PASSED
+
+23-04-2025T17:19:59 - [TEST_STEP][PASSED] - println("isHoursFilled: " + isHoursFilled + " - " + i): null
+
+23-04-2025T17:19:59 - [TEST_STEP][PASSED] - if (isHoursFilled): Text '8' is set on object ''
+
+23-04-2025T17:19:59 - [TEST_STEP][PASSED] - comment(Filling input box $i with 8 hours...): Filling input box 2 with 8 hours...
+
+23-04-2025T17:19:59 - [MESSAGE][INFO] - Filling input box 2 with 8 hours...
+
+23-04-2025T17:19:59 - [TEST_STEP][PASSED] - setText(inputBox, "8"): Text '8' is set on object ''
+
+23-04-2025T17:20:00 - [MESSAGE][PASSED] - Text '8' is set on object ''
+
+23-04-2025T17:20:00 - [TEST_STEP][PASSED] - inputBox = new com.kms.katalon.core.testobject.TestObject(): null
+
+23-04-2025T17:20:00 - [TEST_STEP][PASSED] - inputBox.addProperty("xpath", EQUALS, (//input[@class='oxd-input oxd-input--active' and @autocomplete='off'])[$i]): null
+
+23-04-2025T17:20:00 - [TEST_STEP][PASSED] - isHoursFilled = orangehrm.OrangeUtility.isTextEmpty(inputBox): orangehrm.OrangeUtility.isTextEmpty is PASSED
+
+23-04-2025T17:20:00 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '08:00'
+
+23-04-2025T17:20:00 - [MESSAGE][INFO] - Validation failed: Text has value '08:00'
+
+23-04-2025T17:20:00 - [MESSAGE][PASSED] - orangehrm.OrangeUtility.isTextEmpty is PASSED
+
+23-04-2025T17:20:00 - [TEST_STEP][PASSED] - println("isHoursFilled: " + isHoursFilled + " - " + i): null
+
+23-04-2025T17:20:00 - [TEST_STEP][PASSED] - if (isHoursFilled): null
+
+23-04-2025T17:20:00 - [TEST_STEP][PASSED] - inputBox = new com.kms.katalon.core.testobject.TestObject(): null
+
+23-04-2025T17:20:00 - [TEST_STEP][PASSED] - inputBox.addProperty("xpath", EQUALS, (//input[@class='oxd-input oxd-input--active' and @autocomplete='off'])[$i]): null
+
+23-04-2025T17:20:00 - [TEST_STEP][PASSED] - isHoursFilled = orangehrm.OrangeUtility.isTextEmpty(inputBox): orangehrm.OrangeUtility.isTextEmpty is PASSED
+
+23-04-2025T17:20:00 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '08:00'
+
+23-04-2025T17:20:00 - [MESSAGE][INFO] - Validation failed: Text has value '08:00'
+
+23-04-2025T17:20:00 - [MESSAGE][PASSED] - orangehrm.OrangeUtility.isTextEmpty is PASSED
+
+23-04-2025T17:20:00 - [TEST_STEP][PASSED] - println("isHoursFilled: " + isHoursFilled + " - " + i): null
+
+23-04-2025T17:20:00 - [TEST_STEP][PASSED] - if (isHoursFilled): null
+
+23-04-2025T17:20:00 - [TEST_STEP][PASSED] - inputBox = new com.kms.katalon.core.testobject.TestObject(): null
+
+23-04-2025T17:20:00 - [TEST_STEP][PASSED] - inputBox.addProperty("xpath", EQUALS, (//input[@class='oxd-input oxd-input--active' and @autocomplete='off'])[$i]): null
+
+23-04-2025T17:20:00 - [TEST_STEP][PASSED] - isHoursFilled = orangehrm.OrangeUtility.isTextEmpty(inputBox): orangehrm.OrangeUtility.isTextEmpty is PASSED
+
+23-04-2025T17:20:01 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '08:00'
+
+23-04-2025T17:20:01 - [MESSAGE][INFO] - Validation failed: Text has value '08:00'
+
+23-04-2025T17:20:01 - [MESSAGE][PASSED] - orangehrm.OrangeUtility.isTextEmpty is PASSED
+
+23-04-2025T17:20:01 - [TEST_STEP][PASSED] - println("isHoursFilled: " + isHoursFilled + " - " + i): null
+
+23-04-2025T17:20:01 - [TEST_STEP][PASSED] - if (isHoursFilled): null
+
+23-04-2025T17:20:01 - [TEST_STEP][PASSED] - comment("Saving the timesheet..."): Saving the timesheet...
+
+23-04-2025T17:20:01 - [MESSAGE][INFO] - Saving the timesheet...
+
+23-04-2025T17:20:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Save")): Object: 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Save' is clicked on
+
+23-04-2025T17:20:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Save' is clicked on
+
+23-04-2025T17:20:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-04-2025T17:20:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-04-2025T17:20:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Submit")): Object: 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Submit' is clicked on
+
+23-04-2025T17:20:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@type = 'button' and (text() = ' Submit ' or . = ' Submit ')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+23-04-2025T17:20:34 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Submit'. Try using Self-healing.
+
+23-04-2025T17:20:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='button'])[13]'. Please recheck the objects properties to make sure the desired element is located. 
+
+23-04-2025T17:20:35 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(//button[@type='button'])[13]'.
+
+23-04-2025T17:20:35 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='app']/div/div[2]/div[2]/div/form/div[3]/div[2]/button[2]'.
+
+23-04-2025T17:20:36 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Total'])[2]/following::button[2]'.
+
+23-04-2025T17:20:36 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='OrangeHRM, Inc'])[1]/preceding::button[1]'.
+
+23-04-2025T17:20:36 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: /Users/victor/git/orangehrm_demostration/Reports/Self-healing/Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Submit_neighbor.png
+
+23-04-2025T17:20:36 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Submit' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='OrangeHRM, Inc'])[1]/preceding::button[1]'.
+
+23-04-2025T17:20:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Submit' is clicked on
+
+23-04-2025T17:20:37 - [TEST_STEP][PASSED] - comment("Timesheet process completed successfully."): Timesheet process completed successfully.
+
+23-04-2025T17:20:37 - [MESSAGE][INFO] - Timesheet process completed successfully.
+
+23-04-2025T17:20:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-04-2025T17:20:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-04-2025T17:20:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-04-2025T17:20:39 - [MESSAGE][PASSED] - Browser is closed
+
+23-04-2025T17:20:39 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+23-04-2025T17:20:39 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+23-04-2025T17:20:39 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+23-04-2025T17:20:39 - [TEST_STEP][PASSED] - Start listener action : addFailedTCToList: com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED
+
+23-04-2025T17:20:39 - [MESSAGE][PASSED] - com.kms.katalon.keyword.testsuite.RerunKeyword.isStringBelongToList is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-04-2025T17:19:37 - [TEST_SUITE][PASSED] - TC_OR_920003_Timesheet_With_Valid_and_Required_Field: Test Cases/OR_920001_Employee_Time_Module/OR_920002_Employee_Timesheet/TC_OR_920003_Timesheet_With_Valid_and_Required_Field]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
